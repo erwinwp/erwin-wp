@@ -72,7 +72,7 @@ function loop() {
         apple.y = getRandomInt(0, 25) * grid;
   }
   if (snake.y < 0) {
-        snake.x = 160;
+        snake.x = 161;
         snake.y = 160;
         snake.cells = [];
         snake.maxCells = 4;
